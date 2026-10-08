@@ -8,8 +8,11 @@
     android:layout_height="match_parent"
     android:background="@drawable/splash_bg"
     tools:context=".MainActivity">
+<<<<<<< HEAD
 
 <<<<<<< HEAD
+=======
+>>>>>>> login-screen
     <TextView
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -32,8 +35,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+<<<<<<< HEAD
 </androidx.constraintlayout.widget.ConstraintLayout>
 
+=======
+</androidx.constraintlayout.widget.ConstraintLayout>
+>>>>>>> login-screen
 =======
 </androidx.constraintlayout.widget.ConstraintLayout>
 >>>>>>> login-screen

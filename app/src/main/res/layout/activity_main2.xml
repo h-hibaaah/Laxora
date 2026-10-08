@@ -67,7 +67,9 @@
                 android:text="Enter Your Password"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="22sp"></EditText>
+                android:textSize="22sp">
+
+            </EditText>
 
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="match_parent"
