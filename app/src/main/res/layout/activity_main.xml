@@ -9,6 +9,7 @@
     android:background="@drawable/splash_bg"
     tools:context=".MainActivity">
 
+<<<<<<< HEAD
     <TextView
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -33,3 +34,6 @@
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
+=======
+</androidx.constraintlayout.widget.ConstraintLayout>
+>>>>>>> login-screen
