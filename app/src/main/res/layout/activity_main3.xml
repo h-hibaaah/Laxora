@@ -4,7 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
+    android:background="@drawable/home_bg"
     android:layout_height="match_parent"
     tools:context=".MainActivity3">
+<com.google.android.material.bottomnavigation.BottomNavigationView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
 
+    />
 </androidx.constraintlayout.widget.ConstraintLayout>
