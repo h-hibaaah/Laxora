@@ -92,7 +92,6 @@
         />
 </LinearLayout>
 </com.google.android.material.card.MaterialCardView>
-        ```xml
         <LinearLayout
             android:id="@+id/framelayout2"
             android:layout_width="0dp"
@@ -167,8 +166,8 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="120dp"
-                            android:src="@android:drawable/ic_menu_gallery"
-                            android:scaleType="centerInside"
+                            android:src="@drawable/velvet_lipstick"
+                            android:scaleType="fitCenter"
                             android:contentDescription="Lipstick product image"
                             android:background="#F8D5E0"
                             android:padding="20dp" />
@@ -226,8 +225,8 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="120dp"
-                            android:src="@android:drawable/ic_menu_gallery"
-                            android:scaleType="centerInside"
+                            android:src="@drawable/foundation"
+                            android:scaleType="fitCenter"
                             android:contentDescription="Foundation product image"
                             android:background="#F3DCCB"
                             android:padding="20dp" />
