@@ -30,6 +30,10 @@ class MainActivity3 : AppCompatActivity() {
                 R.id.exploreicon -> {
                     showFragment(ExploreFragment()); true
                 }
+
+                R.id.profileicon-> {
+                    showFragment(ProfileFragment()); true
+                }
                 else -> false
             }
         }
