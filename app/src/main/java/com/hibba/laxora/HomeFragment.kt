@@ -5,8 +5,6 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.appcompat.widget.AppCompatSpinner
-
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
 private const val ARG_PARAM1 = "param1"
@@ -40,30 +38,6 @@ class HomeFragment : Fragment() {
             container,
             false
         )
-
-        val spinner = inflate.findViewById<AppCompatSpinner>(R.id.spinner)
-
-        val items = listOf(
-            "Select Your Skin Type",
-            "Oily",
-            "Dry",
-            "Combination",
-            "Normal",
-            "Sensitive"
-        )
-
-        val adapter = android.widget.ArrayAdapter(
-            requireContext(),
-            android.R.layout.simple_spinner_item,
-            items
-        )
-
-        adapter.setDropDownViewResource(
-            android.R.layout.simple_spinner_dropdown_item
-        )
-
-        spinner.adapter = adapter
-
         return inflate
     }
 
