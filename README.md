@@ -70,8 +70,6 @@ Laxora is an Android makeup shopping application developed with Kotlin and XML. 
 | <img src="ScreenShots/ProfileScreen.png" width="170" alt="Splash screen"/> | 
 </div>
 
-> Add your app screenshots to a `screenshots` folder in the repository using the file names above.
-
 <img src="https://capsule-render.vercel.app/api?type=rect&color=FF69B4&height=3" width="100%" alt="divider"/>
 
 ## Technologies Used
