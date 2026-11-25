@@ -20,22 +20,29 @@ class MainActivity3 : AppCompatActivity() {
         }
 
         val bottomNav = findViewById<BottomNavigationView>(R.id.bottomnav)
+
+        // 1) Pehle listener set karein
         bottomNav.setOnItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.homeicon -> {
                     showFragment(HomeFragment())
                     true
                 }
-
                 R.id.exploreicon -> {
-                    showFragment(ExploreFragment()); true
+                    showFragment(ExploreFragment())
+                    true
                 }
-
-                R.id.profileicon-> {
-                    showFragment(ProfileFragment()); true
+                R.id.profileicon -> {
+                    showFragment(ProfileFragment())
+                    true
                 }
                 else -> false
             }
+        }
+
+        // 2) Phir default item select karein (sirf pehli baar)
+        if (savedInstanceState == null) {
+            bottomNav.selectedItemId = R.id.homeicon
         }
     }
 
